@@ -1,0 +1,20 @@
+
+
+
+<div class="projects-dropdown">
+    <button class="dropdown" (click)="dropdownToggle()">
+        Projects
+        <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
+    <ul class="options" [class.show]="dropdownOpen">
+        <li><a href="#">Option 1</a></li>
+        <li><a href="#">Option 2</a></li>
+        <li><a href="#">Option 3</a></li>
+    </ul>
+
+    <div class="add-project">
+        <mat-icon >edit_square</mat-icon>
+    </div>
+
+
+</div>

@@ -1,0 +1,43 @@
+.projects-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .options {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+  }
+  
+  .options li {
+    padding: 8px 12px;
+  }
+  
+  .options li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .options li a:hover {
+    background-color: #ddd;
+  }
+  
+  .options.show {
+    display: block;
+  }
